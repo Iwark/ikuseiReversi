@@ -31,6 +31,7 @@
     bool chat_flag;
     bool winner_flag;
     bool computerMode;
+    bool processing;
     Color comColor;
 }
 

@@ -17,11 +17,6 @@
 		973A040D17150FA8005F4488 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 973A040C17150FA8005F4488 /* Default-568h@2x.png */; };
 		973A041017150FA8005F4488 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 973A040E17150FA8005F4488 /* MainStoryboard.storyboard */; };
 		973A041317150FA8005F4488 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 973A041217150FA8005F4488 /* ViewController.m */; };
-		973A041B17150FA9005F4488 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 973A041A17150FA9005F4488 /* SenTestingKit.framework */; };
-		973A041C17150FA9005F4488 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 973A03F617150FA8005F4488 /* UIKit.framework */; };
-		973A041D17150FA9005F4488 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 973A03F817150FA8005F4488 /* Foundation.framework */; };
-		973A042517150FA9005F4488 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 973A042317150FA9005F4488 /* InfoPlist.strings */; };
-		973A042817150FA9005F4488 /* ikuseiReversiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 973A042717150FA9005F4488 /* ikuseiReversiTests.m */; };
 		973A043217151248005F4488 /* appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 973A043117151248005F4488 /* appicon.png */; };
 		973A04381715135B005F4488 /* blackButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 973A04371715135B005F4488 /* blackButton.png */; };
 		973A043B17151368005F4488 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = 973A043917151368005F4488 /* board.png */; };
@@ -42,41 +37,12 @@
 		973A046117185D81005F4488 /* WLDEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = 973A046017185D81005F4488 /* WLDEvaluator.m */; };
 		973A046417185D99005F4488 /* MidEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = 973A046317185D98005F4488 /* MidEvaluator.m */; };
 		973A046717186577005F4488 /* EdgeParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 973A046617186576005F4488 /* EdgeParam.m */; };
-		9775281317755CDC0076943A /* base64.c in Sources */ = {isa = PBXBuildFile; fileRef = 9775280C17755CDC0076943A /* base64.c */; };
-		9775281417755CDC0076943A /* NSData+SRB64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9775280F17755CDC0076943A /* NSData+SRB64Additions.m */; };
-		9775281517755CDC0076943A /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 9775281217755CDC0076943A /* SRWebSocket.m */; };
-		9775283D17755D280076943A /* SocketIO.m in Sources */ = {isa = PBXBuildFile; fileRef = 9775281C17755D270076943A /* SocketIO.m */; };
-		9775283E17755D280076943A /* SocketIOJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 9775281E17755D270076943A /* SocketIOJSONSerialization.m */; };
-		9775283F17755D280076943A /* SocketIOPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = 9775282017755D270076943A /* SocketIOPacket.m */; };
-		9775284017755D280076943A /* SocketIOTransportWebsocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 9775282317755D270076943A /* SocketIOTransportWebsocket.m */; };
-		9775284117755D280076943A /* SocketIOTransportXHR.m in Sources */ = {isa = PBXBuildFile; fileRef = 9775282517755D270076943A /* SocketIOTransportXHR.m */; };
-		9775286217755DE70076943A /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9775284F17755DE70076943A /* SBJsonParser.m */; };
-		9775286317755DE70076943A /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9775285117755DE70076943A /* SBJsonStreamParser.m */; };
-		9775286417755DE70076943A /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9775285317755DE70076943A /* SBJsonStreamParserAccumulator.m */; };
-		9775286517755DE70076943A /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9775285517755DE70076943A /* SBJsonStreamParserAdapter.m */; };
-		9775286617755DE70076943A /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = 9775285717755DE70076943A /* SBJsonStreamParserState.m */; };
-		9775286717755DE70076943A /* SBJsonStreamTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9775285917755DE70076943A /* SBJsonStreamTokeniser.m */; };
-		9775286817755DE70076943A /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9775285B17755DE70076943A /* SBJsonStreamWriter.m */; };
-		9775286917755DE70076943A /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9775285D17755DE70076943A /* SBJsonStreamWriterAccumulator.m */; };
-		9775286A17755DE70076943A /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 9775285F17755DE70076943A /* SBJsonStreamWriterState.m */; };
-		9775286B17755DE70076943A /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9775286117755DE70076943A /* SBJsonWriter.m */; };
-		9775286D17755EC90076943A /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9775286C17755EC90076943A /* libicucore.dylib */; };
 		9775286F17755ED10076943A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9775286E17755ED10076943A /* CFNetwork.framework */; };
 		9775287117755ED80076943A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9775287017755ED80076943A /* Security.framework */; };
 		97D239E7171E3C000016BE78 /* CoordinatesTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D239E6171E3BFF0016BE78 /* CoordinatesTransformer.m */; };
 		97D239EA172586670016BE78 /* BookManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D239E9172586660016BE78 /* BookManager.m */; };
 		97D239EC172633770016BE78 /* reversi.book in Resources */ = {isa = PBXBuildFile; fileRef = 97D239EB172633760016BE78 /* reversi.book */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		973A041E17150FA9005F4488 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 973A03EB17150FA8005F4488 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 973A03F217150FA8005F4488;
-			remoteInfo = ikuseiReversi;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		973A03F317150FA8005F4488 /* ikuseiReversi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ikuseiReversi.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,12 +61,7 @@
 		973A040F17150FA8005F4488 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		973A041117150FA8005F4488 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		973A041217150FA8005F4488 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		973A041917150FA9005F4488 /* ikuseiReversiTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ikuseiReversiTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		973A041A17150FA9005F4488 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		973A042217150FA9005F4488 /* ikuseiReversiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ikuseiReversiTests-Info.plist"; sourceTree = "<group>"; };
-		973A042417150FA9005F4488 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		973A042617150FA9005F4488 /* ikuseiReversiTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ikuseiReversiTests.h; sourceTree = "<group>"; };
-		973A042717150FA9005F4488 /* ikuseiReversiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ikuseiReversiTests.m; sourceTree = "<group>"; };
 		973A043117151248005F4488 /* appicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon.png; sourceTree = "<group>"; };
 		973A043517151325005F4488 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		973A04371715135B005F4488 /* blackButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackButton.png; sourceTree = "<group>"; };
@@ -172,7 +133,6 @@
 		9775285F17755DE70076943A /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterState.m; sourceTree = "<group>"; };
 		9775286017755DE70076943A /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
 		9775286117755DE70076943A /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
-		9775286C17755EC90076943A /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 		9775286E17755ED10076943A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		9775287017755ED80076943A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		97D239E5171E3BFF0016BE78 /* CoordinatesTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoordinatesTransformer.h; sourceTree = "<group>"; };
@@ -189,20 +149,9 @@
 			files = (
 				9775287117755ED80076943A /* Security.framework in Frameworks */,
 				9775286F17755ED10076943A /* CFNetwork.framework in Frameworks */,
-				9775286D17755EC90076943A /* libicucore.dylib in Frameworks */,
 				973A03F717150FA8005F4488 /* UIKit.framework in Frameworks */,
 				973A03F917150FA8005F4488 /* Foundation.framework in Frameworks */,
 				973A03FB17150FA8005F4488 /* CoreGraphics.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		973A041517150FA8005F4488 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				973A041B17150FA9005F4488 /* SenTestingKit.framework in Frameworks */,
-				973A041C17150FA9005F4488 /* UIKit.framework in Frameworks */,
-				973A041D17150FA9005F4488 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,12 +163,10 @@
 			children = (
 				9775287017755ED80076943A /* Security.framework */,
 				9775286E17755ED10076943A /* CFNetwork.framework */,
-				9775286C17755EC90076943A /* libicucore.dylib */,
 				973A043517151325005F4488 /* Default.png */,
 				973A043117151248005F4488 /* appicon.png */,
 				9775280A17755CCD0076943A /* Libs */,
 				973A03FC17150FA8005F4488 /* ikuseiReversi */,
-				973A042017150FA9005F4488 /* ikuseiReversiTests */,
 				973A03F517150FA8005F4488 /* Frameworks */,
 				973A03F417150FA8005F4488 /* Products */,
 			);
@@ -229,7 +176,6 @@
 			isa = PBXGroup;
 			children = (
 				973A03F317150FA8005F4488 /* ikuseiReversi.app */,
-				973A041917150FA9005F4488 /* ikuseiReversiTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -303,25 +249,6 @@
 				973A040817150FA8005F4488 /* Default.png */,
 				973A040A17150FA8005F4488 /* Default@2x.png */,
 				973A040C17150FA8005F4488 /* Default-568h@2x.png */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		973A042017150FA9005F4488 /* ikuseiReversiTests */ = {
-			isa = PBXGroup;
-			children = (
-				973A042617150FA9005F4488 /* ikuseiReversiTests.h */,
-				973A042717150FA9005F4488 /* ikuseiReversiTests.m */,
-				973A042117150FA9005F4488 /* Supporting Files */,
-			);
-			path = ikuseiReversiTests;
-			sourceTree = "<group>";
-		};
-		973A042117150FA9005F4488 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				973A042217150FA9005F4488 /* ikuseiReversiTests-Info.plist */,
-				973A042317150FA9005F4488 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -416,25 +343,6 @@
 			productReference = 973A03F317150FA8005F4488 /* ikuseiReversi.app */;
 			productType = "com.apple.product-type.application";
 		};
-		973A041817150FA8005F4488 /* ikuseiReversiTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 973A042E17150FA9005F4488 /* Build configuration list for PBXNativeTarget "ikuseiReversiTests" */;
-			buildPhases = (
-				973A041417150FA8005F4488 /* Sources */,
-				973A041517150FA8005F4488 /* Frameworks */,
-				973A041617150FA8005F4488 /* Resources */,
-				973A041717150FA8005F4488 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				973A041F17150FA9005F4488 /* PBXTargetDependency */,
-			);
-			name = ikuseiReversiTests;
-			productName = ikuseiReversiTests;
-			productReference = 973A041917150FA9005F4488 /* ikuseiReversiTests.octest */;
-			productType = "com.apple.product-type.bundle";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -443,12 +351,18 @@
 			attributes = {
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Kohei Iwasaki";
+				TargetAttributes = {
+					973A03F217150FA8005F4488 = {
+						DevelopmentTeam = 8K2239RG39;
+					};
+				};
 			};
 			buildConfigurationList = 973A03EE17150FA8005F4488 /* Build configuration list for PBXProject "ikuseiReversi" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 973A03EA17150FA8005F4488;
@@ -457,7 +371,6 @@
 			projectRoot = "";
 			targets = (
 				973A03F217150FA8005F4488 /* ikuseiReversi */,
-				973A041817150FA8005F4488 /* ikuseiReversiTests */,
 			);
 		};
 /* End PBXProject section */
@@ -483,31 +396,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		973A041617150FA8005F4488 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				973A042517150FA9005F4488 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		973A041717150FA8005F4488 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		973A03EF17150FA8005F4488 /* Sources */ = {
@@ -534,41 +423,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		973A041417150FA8005F4488 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				973A042817150FA9005F4488 /* ikuseiReversiTests.m in Sources */,
-				9775281317755CDC0076943A /* base64.c in Sources */,
-				9775281417755CDC0076943A /* NSData+SRB64Additions.m in Sources */,
-				9775281517755CDC0076943A /* SRWebSocket.m in Sources */,
-				9775283D17755D280076943A /* SocketIO.m in Sources */,
-				9775283E17755D280076943A /* SocketIOJSONSerialization.m in Sources */,
-				9775283F17755D280076943A /* SocketIOPacket.m in Sources */,
-				9775284017755D280076943A /* SocketIOTransportWebsocket.m in Sources */,
-				9775284117755D280076943A /* SocketIOTransportXHR.m in Sources */,
-				9775286217755DE70076943A /* SBJsonParser.m in Sources */,
-				9775286317755DE70076943A /* SBJsonStreamParser.m in Sources */,
-				9775286417755DE70076943A /* SBJsonStreamParserAccumulator.m in Sources */,
-				9775286517755DE70076943A /* SBJsonStreamParserAdapter.m in Sources */,
-				9775286617755DE70076943A /* SBJsonStreamParserState.m in Sources */,
-				9775286717755DE70076943A /* SBJsonStreamTokeniser.m in Sources */,
-				9775286817755DE70076943A /* SBJsonStreamWriter.m in Sources */,
-				9775286917755DE70076943A /* SBJsonStreamWriterAccumulator.m in Sources */,
-				9775286A17755DE70076943A /* SBJsonStreamWriterState.m in Sources */,
-				9775286B17755DE70076943A /* SBJsonWriter.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		973A041F17150FA9005F4488 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 973A03F217150FA8005F4488 /* ikuseiReversi */;
-			targetProxy = 973A041E17150FA9005F4488 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		973A03FF17150FA8005F4488 /* InfoPlist.strings */ = {
@@ -585,14 +440,6 @@
 				973A040F17150FA8005F4488 /* en */,
 			);
 			name = MainStoryboard.storyboard;
-			sourceTree = "<group>";
-		};
-		973A042317150FA9005F4488 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				973A042417150FA9005F4488 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -657,9 +504,11 @@
 		973A042C17150FA9005F4488 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 8K2239RG39;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ikuseiReversi/ikuseiReversi-Prefix.pch";
 				INFOPLIST_FILE = "ikuseiReversi/ikuseiReversi-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -668,45 +517,13 @@
 		973A042D17150FA9005F4488 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 8K2239RG39;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ikuseiReversi/ikuseiReversi-Prefix.pch";
 				INFOPLIST_FILE = "ikuseiReversi/ikuseiReversi-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		973A042F17150FA9005F4488 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ikuseiReversi.app/ikuseiReversi";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ikuseiReversi/ikuseiReversi-Prefix.pch";
-				INFOPLIST_FILE = "ikuseiReversiTests/ikuseiReversiTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		973A043017150FA9005F4488 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ikuseiReversi.app/ikuseiReversi";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ikuseiReversi/ikuseiReversi-Prefix.pch";
-				INFOPLIST_FILE = "ikuseiReversiTests/ikuseiReversiTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -727,15 +544,6 @@
 			buildConfigurations = (
 				973A042C17150FA9005F4488 /* Debug */,
 				973A042D17150FA9005F4488 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		973A042E17150FA9005F4488 /* Build configuration list for PBXNativeTarget "ikuseiReversiTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				973A042F17150FA9005F4488 /* Debug */,
-				973A043017150FA9005F4488 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

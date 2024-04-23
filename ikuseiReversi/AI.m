@@ -12,10 +12,10 @@
 
 - (id)init{
     if([super init] == self){
-        _presearch_depth = 3;
-        _normal_depth = 5;
-        _wld_depth = 14;
-        _perfect_depth = 13;
+        _presearch_depth = 5;
+        _normal_depth = 7;
+        _wld_depth = 16;
+        _perfect_depth = 14;
         _thoughtDate = [NSDate date];
     }
     return self;

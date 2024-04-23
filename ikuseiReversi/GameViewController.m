@@ -33,6 +33,7 @@
     whiteImg = [UIImage imageNamed:@"whiteButton.png"];
     computerMode = YES;
     comColor = WHITE;
+    processing = NO;
     [self initGame];
 }
 
@@ -97,6 +98,8 @@
 
 - (void)pushButton:(UIButton*)button
 {
+    if (processing) return;
+
     NSTimeInterval interval = [[NSDate date] timeIntervalSinceDate:com.thoughtDate];
     if(interval > 0.1){
         int x = button.tag/10+1;
@@ -133,6 +136,18 @@
 
 - (IBAction)passButton:(UIButton*)button
 {
+    NSMutableArray *array = [board getMovablePos];
+    if([array count] > 0) {
+        chat_contents = @"ふふふ、まだ打てるところがあるようやで";
+        [NSTimer
+         scheduledTimerWithTimeInterval:0.5f
+         target:self
+         selector:@selector(showChat:)
+         userInfo:nil
+         repeats:NO
+         ];
+        return;
+    }
     NSTimeInterval interval = [[NSDate date] timeIntervalSinceDate:com.thoughtDate];
     if(interval > 0.1){
         [board pass];
@@ -241,7 +256,20 @@
         }
         return;
     }
+    processing = YES;
+    [NSTimer
+     scheduledTimerWithTimeInterval:0.5f
+     target:self
+     selector:@selector(triggerComputerMove:)
+     userInfo:nil
+     repeats:NO
+     ];
+//    [self computerMove];
+}
+
+- (void)triggerComputerMove:(NSTimer *)timer {
     [self computerMove];
+    processing = NO;
 }
 
 - (void)computerMove{
@@ -257,14 +285,14 @@
                 if(board.winner == WHITE && winner_flag == false){
                     chatLabel.font = [UIFont fontWithName:@"HelveticaNeue" size:17];
                     chatLabel.shadowOffset = CGSizeMake(1.0,-1.0);
-                    chat_contents = @"終局まで読み切ったで…わいの勝ちや";
-                    [NSTimer
-                     scheduledTimerWithTimeInterval:0.5f
-                     target:self
-                     selector:@selector(showChat:)
-                     userInfo:nil
-                     repeats:NO
-                     ];
+//                    chat_contents = @"終局まで読み切ったで…わいの勝ちや";
+//                    [NSTimer
+//                     scheduledTimerWithTimeInterval:0.5f
+//                     target:self
+//                     selector:@selector(showChat:)
+//                     userInfo:nil
+//                     repeats:NO
+//                     ];
                     winner_flag = true;
                 }
                 [self updateStatus];
